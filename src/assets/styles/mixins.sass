@@ -1,0 +1,18 @@
+@use 'var'
+
+// Centralizar
+@mixin center
+	display: grid
+	place-items: center
+
+@mixin texto($size, $weight, $color)
+	font-size: $size
+	color: $color
+	font-weight: $weight
+
+	.span-yellow
+		color: var.$yellow
+	.span-red
+		color: var.$red
+	.span-green
+		color: var.$green
