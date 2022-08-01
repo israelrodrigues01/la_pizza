@@ -13,12 +13,11 @@ main
 			text-align: center
 
 		.content-width
-			@include mixins.tela-mobile(1200px)
-				padding: 0 20px
-
 			max-width: 1200px
 			margin: 0 auto
-
+			@include mixins.tela-mobile(1200px)
+				padding: 0 20px
+				
 			.content-cards
 				margin-top: 100px
 				display: flex
@@ -67,3 +66,30 @@ main
 						position: absolute
 						bottom: 0
 						transform: translateY(50%)
+
+	.section-sobre
+		background: var.$white-200
+
+		.content-sobre
+			display: flex
+			align-items: center
+			justify-content: space-between
+			gap: 20px
+
+			@include mixins.tela-mobile(900px)
+				justify-content: center
+				text-align: center
+
+			&_img
+				@include mixins.tela-mobile(900px)
+					display: none
+
+			&_conteudo
+				max-width: 458px
+
+				.titulo
+					text-align: inherit
+
+				p
+					@include mixins.texto(var.$font-text, var.$font-regular, var.$gray-200)
+					margin: 24px 0 36px
