@@ -9,7 +9,8 @@ function App(){
       <Header />
       <Main />
       <footer>
-        <h4>Criado com carinho pelo <a href="#">Israel Rodrigues</a></h4>
+          <h4>Criado com carinho pelo <a href="https://github.com/israelrodrigues01">Israel Rodrigues</a>
+          </h4>
       </footer>
     </>
   )
