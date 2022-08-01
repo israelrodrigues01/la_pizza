@@ -7,6 +7,7 @@ function Sobre(){
 				<div className="content-sobre">
 					<div className="content-sobre_img">
 						<img src="src/assets/img/restaurant.png" alt="" />
+						<img className="img-flutuante" src="src/assets/img/img1.png" alt="" />
 					</div>
 					<div className="content-sobre_conteudo">
 						<h2 className="titulo">
@@ -24,6 +25,10 @@ function Sobre(){
 							uis fermentum. 
 						</p>
 						<button>Ler mais</button>
+
+						<div className="img-flutuante">
+							<img className="img" src="src/assets/img/img3.png" alt="" />
+						</div>
 					</div>
 				</div>
 			</div>

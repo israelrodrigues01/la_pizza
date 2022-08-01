@@ -31,6 +31,12 @@
 		letter-spacing: 1px
 
 
+@mixin girar
+	@keyframes girar
+		from
+			transform: rotate(360deg)
+
+
 @mixin tela-mobile($largura)
 	@media(max-width: $largura)
 		@content

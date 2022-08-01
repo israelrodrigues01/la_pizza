@@ -38,6 +38,7 @@ main
 						position: absolute
 						top: 0
 						transform: translateY(-50%)
+
 						.img-coracao
 							position: absolute
 							top: 50%
@@ -81,10 +82,16 @@ main
 				text-align: center
 
 			&_img
+				position: relative
 				@include mixins.tela-mobile(900px)
 					display: none
 
+				.img-flutuante
+					top: 30px
+					left: -50px
+
 			&_conteudo
+				position: relative
 				max-width: 458px
 
 				.titulo
@@ -93,3 +100,10 @@ main
 				p
 					@include mixins.texto(var.$font-text, var.$font-regular, var.$gray-200)
 					margin: 24px 0 36px
+
+				.img-flutuante
+					right: 0px
+					bottom: -200px
+					@include mixins.tela-mobile(900px)
+						right: -100px
+						bottom: -120px
