@@ -1,10 +1,12 @@
-import Cards from './Cards/Cards'
+import './Main.sass'
+
+import SectionCard from './Cards/SectionCard'
 import Sobre from './SobreNos/Sobre'
 
 function Main(){
 	return(
 		<main>
-			<Cards />
+			<SectionCard />
 			<Sobre />
 		</main>
 	)

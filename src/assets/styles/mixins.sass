@@ -16,3 +16,21 @@
 		color: var.$red
 	.span-green
 		color: var.$green
+
+@mixin button
+	padding: 10px 30px
+	font-size: var.$font-btn
+	font-weight: var.$font-semibold
+	color: var.$gray-200
+	background: var.$yellow
+	border: none
+	border-radius: 25px
+	cursor: pointer
+	transition: letter-spacing .3s ease-in-out
+	&:hover
+		letter-spacing: 1px
+
+
+@mixin tela-mobile($largura)
+	@media(max-width: $largura)
+		@content
