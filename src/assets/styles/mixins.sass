@@ -36,6 +36,15 @@
 		from
 			transform: rotate(360deg)
 
+@mixin flutuar
+	@keyframes flutuar
+		0%
+			transform: translateY(0)
+		100%
+			transform: translateY(0)
+		50%
+			transform: translateY(-20px)
+
 
 @mixin tela-mobile($largura)
 	@media(max-width: $largura)

@@ -26,8 +26,11 @@ function Sobre(){
 						</p>
 						<button>Ler mais</button>
 
-						<div className="img-flutuante">
-							<img className="img" src="src/assets/img/img3.png" alt="" />
+						<div className="img-flutuante img2">
+							<img src="src/assets/img/img2.png" alt="" />
+						</div>
+						<div className="img-flutuante img3">
+							<img src="src/assets/img/img3.png" alt="" />
 						</div>
 					</div>
 				</div>

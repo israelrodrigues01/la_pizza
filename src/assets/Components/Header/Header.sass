@@ -10,3 +10,5 @@ header
 	h1
 		@include mixins.texto(var.$font-capa, var.$font-semibold, var.$white)
 		text-transform: capitalize
+		@include mixins.tela-mobile(500px)
+			font-size: 20vw

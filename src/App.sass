@@ -22,3 +22,7 @@ footer
 
 .img-flutuante
     position: absolute
+    animation: flutuar 5s ease-in-out infinite
+    @include mixins.flutuar
+    @include mixins.tela-mobile(700px)
+        display: none
